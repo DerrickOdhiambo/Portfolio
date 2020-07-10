@@ -19,7 +19,8 @@ body{
   padding: 25px 45px 20px 45px;
   margin-top: 25px;
   font-size: 18px;
-  color: rgb(20, 173, 233);
+  font-weight: 600;
+  color: rgb(8, 96, 131);
   font-family: sans-serif;
   transition: .3s;
 }
@@ -28,17 +29,46 @@ body{
   font-size: 25px;
 }
 #active{
-  border-bottom: 2px solid rgb(20, 173, 233);
+  border-bottom: 2px solid rgb(8, 96, 131);
 }
 .nav ul li a:hover{
-  background-color: rgb(8, 96, 131);
+  background-color: rgb(20, 173, 233);
+  color: snow;
   border-radius: 5px;
   transition: .3s;
   opacity: 0.6;
 }
 .welcome{
-  border: 2px solid;
-  margin: 25vh 100vh 20vh 25vh;
-  padding: 10vh;
+  border: 1px solid;
+  margin: 25vh 80vh 20vh 25vh;
+  padding: 3vh;
   background-color: snow;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.8);
+}
+.welcome h2{
+  font-size: 2.5em;
+  font-family: 'Candal', sans-serif;
+  color: rgb(20, 173, 233);
+}
+.welcome h1{
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  font-family: 'Alfa Slab One', cursive;
+  color: rgb(8, 96, 131);
+}
+.welcome h1 span{
+  color: rgb(20, 173, 233);
+}
+.welcome a span{
+  border: 1px solid;
+  padding: 0.7em;
+  margin: 0.5em;
+  border-radius: 50%;
+  color: rgb(8, 96, 131);
+  transition: .4s;
+}
+.welcome a span:hover{
+  color: snow;
+  background-color: rgb(20, 173, 233);
+  transition: .4s;
 }
