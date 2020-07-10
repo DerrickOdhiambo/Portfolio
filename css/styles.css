@@ -36,3 +36,9 @@ body{
   transition: .3s;
   opacity: 0.6;
 }
+.welcome{
+  border: 2px solid;
+  margin: 25vh 100vh 20vh 25vh;
+  padding: 10vh;
+  background-color: snow;
+}
