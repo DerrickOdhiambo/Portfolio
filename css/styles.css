@@ -179,3 +179,52 @@ body{
   color: whitesmoke;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 960px){
+  body{
+    width: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  .nav{
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  .nav ul li a{
+    padding: 20px;
+  }
+  .welcome{
+    margin: 0;
+    padding: 50px;
+    background-color: snow;
+  }
+  .about{
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(8, 96, 131);
+    padding: 0;
+  }
+  #intro img{
+    padding-left: 100px;
+  }
+  #intro2{
+    padding: 20px;
+  }
+  .galaxy, .coffee{
+    flex-direction: column;
+    width: 100%;
+  }
+  .projects img{
+    width: 100%;
+    padding: 0;
+  }
+  .coffee_info, .galaxy_info{
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+
