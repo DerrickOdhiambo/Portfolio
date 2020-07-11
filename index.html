@@ -11,11 +11,11 @@
 <body>
   <div class="nav">
     <ul>
-      <li><a>Home</a></li>
-      <li><a>About</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#aboutId">About</a></li>
       <li><a id="active"><span>Me.</span></a></li>
-      <li><a>Project</a></li>
-      <li><a>Contact</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </div>
   <div class="welcome">
@@ -28,7 +28,7 @@
       <a href="#"><span class="fab fa-google-plus"></span></a>
     </ul>
   </div>
-  <div class="about">
+  <div id="aboutId" class="about">
     <div id="intro">
       <h2>About Me</h2>
       <img src="./images/Derrick.jpg" alt="Derrick's picture">
@@ -42,21 +42,35 @@
   <div class="projects">
     <h2>Projects</h2>
     <div class="coffee">
-      <h3>House Of Coffee</h3>
-      <p>This project is a template for a coffee cafe resturant. It uses <strong>HTML</strong> and <strong>CSS</strong> languages.</p>
+      <div>
+        <img src="./images/House of Coffee.png" alt="">
+      </div>
+      <div class="coffee_info">
+        <h3>House Of Coffee</h3>
+        <p>This project is a template for a coffee cafe resturant. It uses <strong>HTML</strong> and <strong>CSS</strong> languages.</p>
+        <p><a href="https://derrickodhiambo.github.io/House-of-Coffee/">Visit Site</a></p>
+      </div>
     </div>
     <div class="galaxy">
-      <h3>Galaxy Real Estate</h3>
-      <p>Galaxy Real Estate is a template for a market platform for real estate. It uses <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> languages.</p>
+      <div>
+        <img src="./images/Galaxy Real Estate.png" alt="">
+      </div>
+      <div class="galaxy_info">
+        <h3>Galaxy Real Estate</h3>
+        <p>Galaxy Real Estate is a template for a market platform for real estate. It uses <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> languages.</p>
+        <p><a href="https://derrickodhiambo.github.io/Galaxy-Project/">Visit Site</a></p>
+      </div>
     </div>
   </div>
   <div class="contact">
+    <h2>Contact Me</h2>
     <label for="fullname">Full Name</label>
-    <input type="text" name="name" placeholder="Your Name..">
+    <input type="text" id="contact_info" name="name" placeholder="Your Name..">
     <label for="subject">Subject</label>
-    <input type="text" name="subject" placeholder="Subject Of Massage..">
+    <input type="text" id="contact_info" name="subject" placeholder="Subject Of Massage..">
     <label for="message">Message</label>
-    <input type="text" name="message" placeholder="Message..">
+    <input type="text" id="contact_info" name="message" placeholder="Message..">
+    <input type="submit" name="submit" id="submit">
   </div>
   <div class="footer">
     <p>Copyright <span class="far fa-copyright"></span>2020 | Derrick</p>
