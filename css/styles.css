@@ -188,6 +188,7 @@ body{
     overflow-x: hidden;
   }
   .nav{
+    height: 50px;
     width: 100%;
     background-color: whitesmoke;
   }
@@ -198,7 +199,8 @@ body{
     margin: 0;
     padding: 50px;
     background-color: snow;
-    box-sizing: border-box;
+    border: none;
+    box-shadow: none;
   }
   .about{
     flex-direction: column;
@@ -217,7 +219,7 @@ body{
     width: 100%;
   }
   .projects img{
-    height: 400px;
+    height: 350px;
     width: 100%;
     padding: 0;
   }
