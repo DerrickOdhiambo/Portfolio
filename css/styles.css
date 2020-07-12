@@ -198,6 +198,7 @@ body{
     margin: 0;
     padding: 50px;
     background-color: snow;
+    box-sizing: border-box;
   }
   .about{
     flex-direction: column;
@@ -216,6 +217,7 @@ body{
     width: 100%;
   }
   .projects img{
+    height: 400px;
     width: 100%;
     padding: 0;
   }
