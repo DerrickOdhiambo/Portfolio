@@ -186,14 +186,16 @@ body{
     width: 100%;
     background-size: cover;
     overflow-x: hidden;
+    box-sizing: border-box;
   }
   .nav{
+    text-align: left;
     height: 50px;
     width: 100%;
     background-color: whitesmoke;
   }
   .nav ul li a{
-    padding: 20px;
+    padding: 30px;
   }
   .welcome{
     margin: 0;
